@@ -1,6 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:movies_app/model/app_config.dart';
+
+import '../model/app_config.dart';
 
 class HTTPService {
   final Dio dio = Dio();

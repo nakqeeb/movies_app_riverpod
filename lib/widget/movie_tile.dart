@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:movies_app/model/movie.dart';
+
+import '../model/movie.dart';
 
 class MovieTile extends StatelessWidget {
   final GetIt _getIt = GetIt.instance;

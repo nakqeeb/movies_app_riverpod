@@ -1,12 +1,12 @@
 import 'dart:convert';
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get_it/get_it.dart';
-import 'package:movies_app/model/app_config.dart';
-import 'package:movies_app/services/http_service.dart';
-import 'package:movies_app/services/movie_service.dart';
+
+import '../model/app_config.dart';
+import '../services/http_service.dart';
+import '../services/movie_service.dart';
 
 class SplashPage extends StatefulWidget {
   final VoidCallback onInitializationComplete;

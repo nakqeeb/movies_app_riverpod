@@ -1,7 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:movies_app/model/movie.dart';
-import 'package:movies_app/services/http_service.dart';
+
+import '../model/movie.dart';
+import 'http_service.dart';
 
 class MovieService {
   final GetIt getIt = GetIt.instance;
